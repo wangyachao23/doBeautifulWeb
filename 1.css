@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: '微软雅黑';
+}
+ul{
+    list-style: none;
+}
+.first{
+    height: 1000px;
+    width: 1600px;
+    background-image: url(./beijing.JPG);
+    padding-top: 150px;
+}
+.first h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: normal;
+    color: gray;
+}
+.first .content{
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+    padding:100px 100px;
+}
+.create{
+    font-size: 35px;
+    color: gray;
+}
+.c2{
+    font-size: 15px;
+    color: grey;
+}
+.sel{
+    margin-left: 250px;
+    text-align: center;
+    border: 1px solid gray;
+    width: 970px;
+    height: 250px;
+}
+.choo{
+    margin-top: 80px;
+}
+input{
+    width: 290px;
+    height: 50px;
+    text-align: center;
+    margin-right: 30px;
+}
+button{
+    width: 125px;
+    height: 50px;
+    background-color: white;
+    font-size: 20px;
+}
+.second{
+    width: 1600px;
+    height: 710px;
+    text-align: center;
+}
+.con1{
+    text-align: center;
+    margin-top: 30px;
+}
+.p1{
+    font-size: 15px;
+}
+.p2{
+    font-family: serif;
+    font-size: 50px;
+    text-align: center;
+}
+.second .left{
+    width: 50%;
+    height: 290px;
+    float: left;
+    text-align: center;
+}
+.second .right{
+    width: 50%;
+    height: 290px;
+    float: left;
+}
+.second img{
+    margin-right: 15px;
+}
+.second .left,.second .right{
+    margin-top: 100px;  
+}
+.left1 span:nth-of-type(2),.left2 span:nth-of-type(2),.left3 span:nth-of-type(2),.left4 span:nth-of-type(2){
+    display:block;
+    text-indent: 150px;
+}
+.third{
+    width: 1600px;
+    height: 800px;
+    background-image: url(./timg.jpg);
+}
+.third .left{
+    width: 1000px;
+    float: left;
+    text-align: center;
+    padding-top: 180px;
+}
+.third .left h1{
+    font-size: 50px;
+    font-weight: normal;
+}
+.third .left p{
+    word-spacing: 2px;
+}
+#input2{
+    background-color: black;
+    color: white;
+}
+.third .left input{
+    height: 60px;
+    width: 240px;
+    margin-top: 50px;
+}
+.third .right{
+    padding-top: 100px;
+    float: right;
+}
+.third .right img{
+    border: 1px solid gray;
+    border: 30px 0 30px 60px;
+}
+.fourth{
+    width: 1600px;
+    height: 600px;
+}
+.fourth h1{
+    text-align: center;
+    font-weight: normal;
+    padding-top: 100px;
+    margin-bottom: 95px;
+}
+.fourth .left{
+    float: left;
+    width: 600px;
+    text-align: center;
+}
+.fourth .center{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+.fourth .right{
+    width: 600px;
+    float: right;
+    text-align: center;
+}
+.fifth{
+    width: 1110px;
+    height: 1030px;
+    text-align: center;
+    margin: 0 auto;
+}
+.fifth .img1{
+    float: left;
+    width: 80%
+}
+.fifth .p1{
+    width: 20%;
+    float: right;
+    margin-top: 30px;
+}
+.fifth .img2{
+    float: right;
+    width: 80%
+}
+.fifth .p2{
+    width: 20%;
+    float: left;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.sixth{
+    width: 1000px;
+    height: 850px;
+    text-align: center;
+    margin: 0 auto;
+}
+.sixth h1{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.sixth p{
+    margin-bottom: 40px;
+}
+.sixth .image{
+    margin:20px;
+}
+.seventh{
+    width: 1500px;
+    height: 700px;
+    margin: 0 auto;
+}
+.seventh .left{
+    float: left;
+    width: 44%;
+    text-align: center;
+    margin: 50px 3% 50px 3%;
+    border: 1px solid gray;
+    padding: 50px 0;
+    box-sizing: border-box;
+}
+.seventh .left h3{
+    margin:0 0 45px 0;
+}
+.seventh button{
+    background-color: black;
+    color: white;
+}
+.seventh .left li textarea{
+    margin-bottom: 30px;
+}
+.seventh .right{
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+}
+.seventh .right h1{
+    margin-top: 85px;
+    font-weight: normal;
+}
+.seventh .right .ff span:nth-of-type(2){
+    display: block;
+}
+.eighth{
+    width: 1600px;
+    height: 410px;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+}
+.eighth div:nth-of-type(1){
+    width: 23%;
+    float: left;
+    margin-left: 2%;
+    /* margin: 88px 0 88px 0; */
+    box-sizing: border-box;
+    margin-top: 88px;
+}
+.eighth div:nth-of-type(2){
+    width: 23%;
+    float: left;
+    margin-left: 2%;
+    /* margin: 88px 0 88px 0; */
+    box-sizing: border-box;
+    margin-top: 88px;
+}
+.eighth div:nth-of-type(3){
+    width: 23%;
+    float: right;
+    margin-left: 2%;
+    /* margin: 88px 0 88px 0; */
+    box-sizing: border-box;
+    margin-top: 88px;
+}
+.eighth div:nth-of-type(4){
+    width: 23%;
+    float: right;
+    margin-left: 2%;
+    /* margin: 88px 0 88px 0; */
+    box-sizing: border-box;
+    margin-top: 88px;
+}
+
